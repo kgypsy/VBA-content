@@ -61,7 +61,7 @@ This example displays the  **Open** dialog box, with the file filter set to text
 ```vb
 fileToOpen = Application _ 
  .GetOpenFilename("Text Files (*.txt), *.txt") 
-If fileToOpen <> False Then 
+If fileToOpen <> "False" Then 
  MsgBox "Open " &; fileToOpen 
 End If
 ```
